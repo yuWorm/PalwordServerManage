@@ -1,0 +1,1 @@
+import{aZ as m}from"./index-5d6b5a6a.js";function f(r=void 0,e="YYYY-MM-DD HH:mm:ss"){return m(r).format(e)}function a(r,e,t=1){if(typeof r!="number"||typeof e!="number"||typeof t!="number")throw new Error("All arguments must be numbers");const o=[];for(let n=r;n<=e;n+=t)o.push(n);return o}export{f,a as g};

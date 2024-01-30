@@ -1,0 +1,9 @@
+test_docker.py
+test_rcon.py
+test_main.http
+./.*.local
+.idea
+./data/tmp/*
+./data/palworld/*
+./data/backup/*
+./data/db.*

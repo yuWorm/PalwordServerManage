@@ -1,0 +1,2 @@
+class PalWorldException(Exception):
+    pass

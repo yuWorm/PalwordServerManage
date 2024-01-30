@@ -1,0 +1,1 @@
+docker build -t palworld_server_manager .

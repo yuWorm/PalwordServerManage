@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+python-jose = "*"
+cryptography = "*"
+python-dotenv = "*"
+tortoise-orm = "*"
+aerich = "*"
+aiofiles = "*"
+aioshutil = "*"
+passlib = "*"
+docker = "*"
+gamercon-async = "*"
+aiodocker = "*"
+apscheduler = "*"
+sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.6"
