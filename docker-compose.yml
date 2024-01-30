@@ -13,7 +13,7 @@ services:
         restart: unless-stopped
 
     palword_manager:
-      image: palworld_server_manager
+      image: yuworm/palworld_server_manager
       ports:
         - "18080:8080"
       container_name: palword_manager
